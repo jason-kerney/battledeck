@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JKerney-HunterIndustries/battledeck"
+    "url": "https://github.com/jason-kerney/battledeck"
   },
   "license": "MIT",
   "dependencies": {
