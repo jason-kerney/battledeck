@@ -23,14 +23,14 @@ function router(
                 const file = fs.readFileSync(resoursePath);
 
                 response.writeHead(200, { 'Content-Type': contentType });
-                response.end(file, 'text');
+                response.end(file, 'utf8');
             }
         }
 
         function hostHtmlString(html) {
             return function (response) {
                 response.writeHead(200, { 'Content-Type': 'text/html' });
-                response.end(html, 'text');
+                response.end(html, 'utf8');
             }
         }
 
